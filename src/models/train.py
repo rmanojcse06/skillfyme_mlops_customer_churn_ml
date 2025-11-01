@@ -12,6 +12,7 @@ def load_data():
     # For demo: Generate synthetic data
     np.random.seed(42)
     n_samples = 1000
+    
 
     data = {
         'age': np.random.randint(18, 70, n_samples),
